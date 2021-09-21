@@ -44,8 +44,11 @@ Pipeline for mapping paired-end reads from Illumina libraries of pooled/combined
 
 Requries the following software dependencies: BowTie2 v.2.3.5 Samtools v.1.12, Bamtools v.2.5.1
 
-The script allows depends on target sequences having the FASTA headers: ">csd_ex7" and "<csd_ex8."
-
+The script allows depends on target sequences having the FASTA headers:
+```
+>csd_ex7
+>csd_ex8
+```
 Usage:
 ```
 sh bee_csd_mapping.sh <library_name> <reference> <read_file>

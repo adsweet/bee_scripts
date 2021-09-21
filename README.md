@@ -23,8 +23,11 @@ Pipeline for assembling CSD exons 7 and 8 from honey bee whole genome sequence d
 
 Requries the following software dependencies: aTRAM2, Exonerate v.2.2.0, CD-hit v.4.8.1, SRA Toolkit v.2.10.0
 
-The script allows depends on target sequences having the FASTA headers: ">csd_ex7" and "<csd_ex8."
-
+The script allows depends on target sequences having the FASTA headers: 
+```
+>csd_ex7
+>csd_ex8
+```
 ```
 Usage: sh bee_csd_pipeline_SRA.sh <library_name> <targets_sequences>
 ```

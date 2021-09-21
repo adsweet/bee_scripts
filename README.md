@@ -9,8 +9,9 @@ Requries the following software dependencies: aTRAM2, Exonerate v.2.2.0, CD-hit 
 
 The script allows depends on target sequences having the FASTA headers: ">csd_ex7" and "<csd_ex8."
 
+Usage:
 ```
-Usage: sh bee_csd_pipeline_SRA.sh <input_list> <target_sequences>
+sh bee_csd_pipeline_SRA.sh <input_list> <target_sequences>
 ```
 ### Arguments
 - `<input_list>`
@@ -28,8 +29,9 @@ The script allows depends on target sequences having the FASTA headers:
 >csd_ex7
 >csd_ex8
 ```
+Usage:
 ```
-Usage: sh bee_csd_pipeline_SRA.sh <library_name> <targets_sequences>
+sh bee_csd_pipeline_SRA.sh <library_name> <targets_sequences>
 ```
 ### Arguments
 - `<input_list>`
@@ -44,8 +46,9 @@ Requries the following software dependencies: BowTie2 v.2.3.5 Samtools v.1.12, B
 
 The script allows depends on target sequences having the FASTA headers: ">csd_ex7" and "<csd_ex8."
 
+Usage:
 ```
-Usage: sh bee_csd_mapping.sh <library_name> <reference> <read_file>
+sh bee_csd_mapping.sh <library_name> <reference> <read_file>
 ```
 ### Arguments
 - `<library_name>`

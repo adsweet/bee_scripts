@@ -61,3 +61,6 @@ sh bee_csd_mapping.sh <library_name> <reference> <read_file>
 - `<read_file>`
   - Name of the read library; should be the prefix of the FASTQ read files (also excluding "_1" or "_2")
 
+### bee_csd_pop.R
+R script for analyzing relatedness and genetic distance within (i.e., brothers) and between families of honey bees.
+
